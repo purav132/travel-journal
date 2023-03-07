@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  padding: 75px 0;
+  background-color: #2b283a;
+}
+
+.container {
+  width: 550px;
+  height: 704px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+nav {
+  /* position: absolute; */
+  background: #f55a5a;
+  width: auto;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.fa-globe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+  padding-top: 16px;
+}
+
+.nav-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+  padding-top: 16px;
+}
+
+section {
+  margin: 30px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 20px;
+}
+
+.place-pic {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.fa-map-marker {
+  color: red;
+  font-size: 11px;
+}
+
+.place-country {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2b283a;
+}
+
+.place-location {
+  display: flex;
+  gap: 12px;
+}
+
+.place-location-marker {
+  display: flex;
+  gap: 4px;
+}
+
+.place-ggl-location {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.place-title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+}
+
+.place-date {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+  color: #2b283a;
+}
+
+.place-description {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #2b283a;
+}
